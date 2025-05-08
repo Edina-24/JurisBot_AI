@@ -39,3 +39,11 @@ Make sure to replace `your_groq_api_key` with your actual Groq API key.
 ## 4. Add Your PDF Documents
 
 Place your PDF documents in the `data` folder so the model can process and extract legal information.
+
+## 5. Run the Server
+Once everything is set up, you can start the application by running the following command:
+
+```bash
+python main.py
+```
+This will start the application and it will be available at http://localhost:5000.
